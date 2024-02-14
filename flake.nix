@@ -23,11 +23,11 @@
             mkdir -p .cache/texmf-var
             env TEXMFHOME=.cache TEXMFVAR=.cache/texmf-var \
               latexmk -interaction=nonstopmode -pdf -lualatex \
-              document.tex
+              resume.tex
           '';
           installPhase = ''
             mkdir -p $out
-            cp document.pdf $out/
+            cp resume.pdf $out/
           '';
         };
       };

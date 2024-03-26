@@ -1,2 +1,11 @@
 # Resume
-LaTex and Word resume listing all of my qualifications and achievements
+
+## Build with Latex
+```bash
+latexmk -xelatex -pdf resume_cv.tex
+```
+
+## Build with Nix (GigaChad)
+```bash
+nix build
+```

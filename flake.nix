@@ -31,7 +31,7 @@
           '';
           installPhase = ''
             mkdir -p $out
-            cp resume.pdf $out/
+            cp resume_cv.pdf $out/
           '';
         };
       };

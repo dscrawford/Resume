@@ -10,9 +10,15 @@
       pkgs = nixpkgs.legacyPackages.${system};
       tex = pkgs.texlive.combine {
         inherit (pkgs.texlive)
-          scheme-full
+          scheme-small
           latex-bin
           latexmk
+          enumitem
+          xifthen
+          ifmtarg
+          sourcesanspro
+          tcolorbox
+          environ
         ;
       };
     in rec {

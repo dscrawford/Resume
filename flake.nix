@@ -19,6 +19,7 @@
           sourcesanspro
           tcolorbox
           environ
+          lualatex-math
         ;
       };
     in rec {
@@ -32,7 +33,7 @@
             export PATH="${pkgs.lib.makeBinPath buildInputs}";
             mkdir -p .cache/texmf-var
             env TEXMFHOME=.cache TEXMFVAR=.cache/texmf-var \
-              latexmk -interaction=nonstopmode -pdf -xelatex -f \
+              latexmk -interaction=nonstopmode -pdf -lualatex -f \
               resume_cv.tex
           '';
           installPhase = ''

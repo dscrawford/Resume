@@ -10,10 +10,11 @@ ifmtarg
 sourcesanspro
 tcolorbox
 environ
+lualatex-math
 ```
 
 ```bash
-latexmk -xelatex -pdf resume_cv.tex
+latexmk -lualatex -pdf resume_cv.tex
 ```
 
 ## Build with Nix (GigaChad)

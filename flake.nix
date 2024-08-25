@@ -38,7 +38,8 @@
           '';
           installPhase = ''
             mkdir -p $out
-            cp resume_cv.pdf $out/
+            cp resume_cv.pdf $out/DanielCrawford_MLEngineer_Resume.pdf
+            cp resume_cv.pdf $out/DanielCrawford_DataScientist_Resume.pdf
           '';
         };
       };

@@ -20,16 +20,19 @@
 { % Description(s) of tasks/responsibilities
 \begin{cvitems}
 \item {
-Led effort to build out Fulfillment Optimization (FO) simulation, generating 11\% increase in annual savings in NA or \$50M total EBIT in FY23, by using Python, Flask, ORTools, and PostgreSQL to allow for back-testing with 99\% similarity to production.
+Led effort to architect and develop Fulfillment Optimization (FO) simulation, generating 11\% increase in annual savings in NA or \$50M total EBIT in FY23, by using Python, Flask, ORTools, and PostgreSQL to allow for back-testing with 99\% similarity to production.
 }
 \item {
 Spearheaded the value measurement for our team by designing a baseline, estimating FY23 savings with 8\% decrease in shipping costs while using 40\% less CO2 annually, through analysis with SQL, Pandas, and Snowflake.
 }
 \item {
-Collaborated with lead data scientists to build a simpler and more powerful decision engine that passed all existing E2E tests and reduced shipping inefficiencies by 2\%, with an ORTools/Gurobi optimization model.
+Collaborated with lead data scientists to build a simpler and more powerful decision engine that satisfied all previous requirements and reduced shipping inefficiencies by 2\%, with an ORTools/Gurobi optimization model.
 }
 \item {
-Enhanced engine to meet EMEA requirements, enabling cost-saving strategies that saved approximately 5M€ for FY23 by altering our Python code-base, SQLAlchemy schemas/queries and building new algorithms.
+Integrated FO from NA to EMEA, enabling cost-saving strategies that saved approximately 5M€ for FY23 by altering our Python code-base, SQLAlchemy schemas/queries and building new algorithms.
+}
+\item {
+Enabled Kubernetes/EKS distributed system to support horizontal scalability, facilitating the simultaneous execution of multiple experiments and scaling workers for each experiment. Generalized the codebase to enable local testing, debugging, and seamless integration with CI/CD pipelines.
 }
 \end{cvitems}
 }
@@ -44,7 +47,8 @@ Enhanced engine to meet EMEA requirements, enabling cost-saving strategies that 
 { % Description(s) of tasks/responsibilities
 \begin{cvitems}
 \item {Introduced an automated ML solution to replace a subjective grading process, reducing a manual 2 minutes per card grading process by 40\% while also providing segmentation masks for surface damages.}
-\item {Transformed thousands of 100MP images into training data that produced our first MVP model, a UNet semantic segmentation classifier implemented with PyTorch.}
+\item {Transformed thousands of unlabelled 100MP images into training data that produced a MVP model, a UNet semantic segmentation classifier implemented with PyTorch and deployed with TorchServe and SageMaker.}
+\item {Presented AI/ML solution to non-technical stakeholders, visualizing our approach as a black-box technique for describing surface damages in a card.}
 \end{cvitems}
 }
 
@@ -57,7 +61,8 @@ Enhanced engine to meet EMEA requirements, enabling cost-saving strategies that 
 {Jun 2020 - Aug 2020} % Date(s)
 { % Description(s) of tasks/responsibilities
 \begin{cvitems}
-\item {Improved error on auto insurance premium predictions by 5\% with PySpark and H2O, utilizing a XGBoost model on top of a GLM.}
+\item {Improved error on auto insurance premium predictions by 5\% with distributed frameworks PySpark and H2O, utilizing a XGBoost model on top of a GLM and validating results with K-fold cross-validation.}
+\item {Illustrated insights on potential improvements by different car manufacturers to visualize where current GLM under-performs.}
 \end{cvitems} 
 }
 

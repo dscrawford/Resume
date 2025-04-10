@@ -17,7 +17,7 @@ lualatex-math
 latexmk -lualatex -pdf resume_cv.tex
 ```
 
-## Build with Nix (GigaChad)
+## Build with Nix
 ```bash
 nix build
 ```
